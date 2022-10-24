@@ -1,0 +1,80 @@
+html { 
+    background: url(img/cup-of-coffee-1280537_960_720.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    color: white;
+    font-family: courier;
+    font-size: 18px;
+    max-width: 660px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  } 
+h1, p {
+    margin: 1em auto;
+    text-align: center;;
+}
+h1 {
+  font-size: 2.5rem;
+  box-sizing: 3px;
+  width: 90%;
+  border: solid white 3px;
+  padding: .7rem;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #b88747;
+  }
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+input, textarea, select {
+    margin: .5rem 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    font-family: courier;
+  }
+  
+input, textarea {
+    background-color: white;
+    color: black;
+  }
+  
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: white;
+    border-color: white;
+    min-width: 300px;
+    font-family: courier;
+  }
+  

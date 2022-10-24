@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Redacted Concepts Coffee Survey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="https://images.squarespace-cdn.com/content/v1/5f0a86ed98553f0771477175/54f9e677-6ee5-4d25-a114-b20fa67f3843/favicon.ico?format=100w"/>
+    </head>
+    <body>
+        <h1 id="title">Redacted Coffee Survey</h1>
+        <p id="description">Thanks for your feedback. IYKYK.</p>
+        <form id="survey-form" name="survey-form" action="https://redacted-demo.redactedconcepts.com">
+            <fieldset>
+                <label for="name-label">Name: <input id="name" name="name" type="text" placeholder="Enter your full name" required/></label>
+                <label for="email-label">Email: <input id="email" name="email" type="email" placeholder="Enter your email" required/></label>
+                <label for="number-label">Age (Optional): <input min="10" max="100" id="number" type="number" placeholder="Enter your age (Optional)" required/></label>
+                <label for="dropdown">Which option describes your current role?
+                    <select id="dropdown" name="dropdown">
+                        <option value="">(select one)</option>
+                        <option value="1">Student</option>
+                        <option value="2">Education</option>
+                        <option value="3">First Responder(Fire, EMS, LE)</option>
+                        <option value="4">Military</option>
+                        <option value="2">Tradesman</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>   
+                <p>Would you recommend our product to a friend?</p>
+                <label for="Definitely">
+                    <input id="Definitely" value="Definitely" type="radio" name="recommendation" class="inline" />Definitely
+                </label>
+                <label for="Maybe">
+                    <input id="Maybe" value="Maybe" type="radio" name="recommendation" class="inline"/>Maybe
+                </label>
+                <label for="Not sure">
+                    <input id="Not sure" value="Not sure" type="radio" name="recommendation" class="inline"/>Not sure
+                </label>
+            </fieldset> 
+            <fieldset>
+                <p>What is your favorite product line?</p>
+                <label for="dropdown-product">
+                    <select id="dropdown-product" name="dropdown-product">
+                        <option value="">(select one)</option>
+                        <option value="1">Redacted Nitro Cold Brew</option>
+                        <option value="2">Redacted Bull Energy</option>
+                        <option value="3">Redacted Coffee Beans</option>
+                        <option value="4">Redacted K-Cups</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <p>What would you like to see improved?</p>
+                <label for="website">
+                    <input id="website" name="website" type="checkbox" value="website" class="inline"/>Website Features
+                </label>
+                <label for="order-processing">
+                    <input id="order-processing" name="order-processing" type="checkbox" value="order-processing" class="inline"/>Order Processing Times
+                </label>
+                <label for="coffee-flavors">
+                    <input id="coffee-flavors" name="coffee-flavors" type="checkbox" value="coffee-flavors" class="inline"/>Coffee Flavors
+                </label>
+                <label for="social-media">
+                    <input id="social-media" name="social-media" type="checkbox" value="social-media" class="inline"/>Social Media
+                </label>
+            </fieldset> 
+                <label for="text-feedback">Comments:
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I would like this get new t shirts..."></textarea>
+              </label>
+            <input id="submit" type="submit" value="Submit" />
+
+        </form>
+    </body>
+</html>
